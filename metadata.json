@@ -1,0 +1,6 @@
+{
+  "name": "YonyWood",
+  "description": "Réseau documentaire vivant — Des histoires qui nous relient. Deux univers, une même question, une même forêt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

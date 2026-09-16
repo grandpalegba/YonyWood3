@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-editorial: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-ui: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    --color-bg: #F5F1E8;
+    --color-surface: #FFFDF8;
+    --color-text: #20201D;
+    --color-text-secondary: #68655D;
+    --color-border: #E4DDCC;
+    --color-accent-solar: #C89B3C;
+    --color-accent-earth: #8B6845;
+    --color-clairiere-tint: #F3E9D2;
+    
+    --color-bg-dark: #0E0D0B;
+    --color-surface-dark: #1B1916;
+    --color-text-dark: #F5F1E8;
+    --color-text-dark-secondary: #A8A399;
+  }
+
+  body {
+    font-family: var(--font-ui);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-editorial);
+  }
+}
+
+.font-editorial {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-ui {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom organic mask for protagonist universe portraits */
+.mask-organic {
+  border-radius: 46% 54% 48% 52% / 51% 47% 53% 49%;
+}
+
+.mask-organic-alt {
+  border-radius: 53% 47% 54% 46% / 48% 53% 47% 52%;
+}
+
+/* Subtle organic aura */
+.aura-solar {
+  background: radial-gradient(circle, rgba(200, 155, 60, 0.18) 0%, rgba(200, 155, 60, 0.04) 55%, transparent 70%);
+}
+
+.aura-clairiere {
+  background: radial-gradient(circle, rgba(243, 233, 210, 0.9) 0%, rgba(245, 241, 232, 0.3) 65%, transparent 80%);
+}
